@@ -1,6 +1,6 @@
-console.log('app.js is running');
-
-var template = <p>Indecision app</p>;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Index from './Index';
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(<Index />, appRoot);
